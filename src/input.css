@@ -9,3 +9,7 @@
         src: url('/fonts/PPGrafier-regular.otf') format('otf');
     }
 }
+
+#about .tech-card {
+    @apply mx-auto border rounded-xl p-10 m-3;
+}
