@@ -10,6 +10,10 @@
     }
 }
 
-#about .tech-card {
-    @apply mx-auto border rounded-xl p-10 m-3;
+#tech .tech-card {
+    @apply mx-auto bg-neutral-900 rounded-xl p-10 m-3;
+}
+
+#tech .skill-card {
+    @apply bg-neutral-900 rounded-xl p-5 m-3;
 }
