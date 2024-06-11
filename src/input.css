@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,7 +10,7 @@
 }
 
 body .titulo {
-  @apply flex py-6 text-xl md:text-4xl uppercase;
+  @apply flex text-2xl font-Syne md:text-4xl hover:translate-y-1 duration-100;
 }
 
 body .link-btn {
