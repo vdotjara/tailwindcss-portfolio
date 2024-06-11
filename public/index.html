@@ -27,6 +27,7 @@
         >
       </div>
     </nav>
+
     <!-- Global Container -->
     <div class="container mx-auto px-8 pb-8">
       <!-- Hero Section -->
@@ -35,7 +36,7 @@
         <div class="flex flex-col">
           <!-- Hero Heading -->
           <div
-            class="mx-auto my-12 text-5xl md:mt-4 md:text-9xl md:mx-0 md:mb-40 md:tracking-wide"
+            class="mx-auto my-12 font-bold text-5xl md:mt-4 md:text-9xl md:mx-0 md:mb-40 md:tracking-tight"
           >
             <h1>VICTOR JARA</h1>
           </div>
@@ -59,7 +60,7 @@
             </div>
             <!-- Buttons Container -->
             <div
-              class="flex flex-col mt-32 justify-between space-y-5 mx-auto md:mx-0"
+              class="flex flex-col mt-32 justify-between space-y-5 mx-auto md:mx-0 font-semibold"
             >
               <!-- GitHub Logo -->
               <a
@@ -67,12 +68,12 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div  class="flex mx-auto text-xl border rounded-xl items-center justify-between">
+                <div class="link-btn">
                   <div class="">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 22 24"
-                      fill="white"
+                      fill="black"
                       class="size-12 py-1"
                     >
                       <path
@@ -91,14 +92,12 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div
-                  class="flex mx-auto text-xl border rounded-xl items-center justify-between"
-                >
+                <div class="link-btn">
                   <div class="">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 22 24"
-                      fill="white"
+                      fill="black"
                       class="size-12 py-1"
                     >
                       <path
@@ -111,15 +110,13 @@
                   </div>
                 </div>
               </a>
-              <!-- Contacto Button -->
+              <!-- Contact Button -->
               <a href="#">
-                <div
-                  class="flex mx-auto text-xl border rounded-xl items-center justify-between"
-                >
+                <div class="link-btn">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 22 24"
-                    fill="white"
+                    fill="black"
                     class="size-12 py-1"
                   >
                     <path
@@ -142,14 +139,14 @@
         <!-- About Container -->
         <div class="flex flex-col py-12">
           <!-- Title -->
-          <div class="flex py-4 text-xl border-t md:text-4xl uppercase">
+          <div class="titulo border-t">
             <h3>Sobre Mi</h3>
           </div>
           <!-- About Content -->
           <div class="flex flex-col">
             <!-- About Me Text -->
             <div
-              class="font-semibold text-left py-2 text-2xl max-w-sm md:text-4xl md:max-w-3xl md:pb-12"
+              class="font-semibold text-left text-2xl max-w-sm md:text-4xl md:max-w-3xl md:pb-12"
             >
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
@@ -163,9 +160,7 @@
             <!-- Experience Section -->
             <div class="container flex flex-col pt-20 md:py-10">
               <!-- Title -->
-              <div
-                class="flex justify-start pb-6 text-xl md:text-4xl uppercase"
-              >
+              <div class="titulo">
                 <h3>Experiencia</h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -200,7 +195,7 @@
             <!-- My Studies Section -->
             <div class="container flex flex-col pt-20 md:py-10">
               <!-- Title -->
-              <div class="flex justify-end pb-6 text-xl md:text-4xl uppercase">
+              <div class="titulo justify-end">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 36"
@@ -238,6 +233,37 @@
                   <p class="text-end text-zinc-400 md:text-xl">2021 / 2023</p>
                 </div>
               </div>
+              <!-- CV Download Button -->
+              <div
+                class="flex flex-col mt-20 justify-between space-y-5 mx-auto font-semibold"
+              >
+                <a
+                  href="../src/CV - Victor Jara.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="link-btn pr-3">
+                    <!-- SVG -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="black"
+                      class="size-12 py-1"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M5.625 1.5H9a3.75 3.75 0 0 1 3.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 0 1 3.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 0 1-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875Zm5.845 17.03a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72V12a.75.75 0 0 0-1.5 0v4.19l-1.72-1.72a.75.75 0 0 0-1.06 1.06l3 3Z"
+                        clip-rule="evenodd"
+                      />
+                      <path
+                        d="M14.25 5.25a5.23 5.23 0 0 0-1.279-3.434 9.768 9.768 0 0 1 6.963 6.963A5.23 5.23 0 0 0 16.5 7.5h-1.875a.375.375 0 0 1-.375-.375V5.25Z"
+                      />
+                    </svg>
+                    <!-- Text -->
+                    <p>Descargar CV</p>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -247,8 +273,22 @@
       <section id="projects">
         <!-- Projects Container -->
         <div class="py-12">
-          <!-- Little Header -->
-          <div class="flex py-4 text-zinc-500 border-t">Proyectos</div>
+          <!-- Title -->
+          <div class="titulo border-t">
+            <h3>Proyectos</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 36"
+              fill="currentColor"
+              class="size-10 md:size-16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3.97 3.97a.75.75 0 0 1 1.06 0l13.72 13.72V8.25a.75.75 0 0 1 1.5 0V19.5a.75.75 0 0 1-.75.75H8.25a.75.75 0 0 1 0-1.5h9.44L3.97 5.03a.75.75 0 0 1 0-1.06Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
           <!-- Projects Content -->
           <div class="flex flex-col gap-4 py-2 mx-auto md:grid md:grid-cols-2">
             <!-- Item 1 -->
@@ -275,7 +315,7 @@
         <!-- Tech Stack Container -->
         <div class="flex flex-col pt-20 md:py-10">
           <!-- Title -->
-          <div class="flex pb-6 text-xl md:text-4xl uppercase">
+          <div class="titulo border-t">
             <h3>tecnologías</h3>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -291,29 +331,36 @@
             </svg>
           </div>
           <!-- Tech Items Container -->
-          <div class="flex flex-col">
+          <div class="flex flex-col py-4 md:pt-2">
+            <!-- Sub Title -->
             <div
-              class="grid grid-cols-2 mx-auto gap-x-8 justify-center md:grid-cols-6 md:gap-x-9 md:mx-auto md:gap-y-1"
+              class="mx-auto pb-6 text-xl text-neutral-300 font-semibold md:pl-[54px] md:mx-0"
+            >
+              <h4>Front-end</h4>
+            </div>
+            <!-- Front-end Container -->
+            <div
+              class="grid grid-cols-2 mx-auto gap-x-7 justify-center md:grid-cols-7 md:gap-x-9 md:gap-y-1"
             >
               <!-- Item 1 -->
               <div class="tech-card">
                 <!-- Imagen -->
-                <i class="ci ci-html ci-4x"></i>
+                <i class="ci ci-html ci-3x"></i>
               </div>
               <!-- Item 2 -->
               <div class="tech-card">
                 <!-- Imagen -->
-                <i class="ci ci-css ci-4x"></i>
+                <i class="ci ci-css ci-3x"></i>
               </div>
               <!-- Item 3 -->
               <div class="tech-card">
                 <!-- Imagen -->
-                <i class="ci ci-tailwind ci-4x"></i>
+                <i class="ci ci-tailwind ci-3x items-center"></i>
               </div>
               <!-- Item 4 -->
               <div class="tech-card">
                 <!-- Imagen -->
-                <i class="ci ci-react ci-4x"></i>
+                <i class="ci ci-react ci-3x items-center"></i>
               </div>
               <!-- Item 5 -->
               <div class="tech-card">
@@ -323,7 +370,7 @@
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
-                  class="size-16"
+                  class="size-12"
                   fill="#21759b"
                 >
                   <path
@@ -334,30 +381,80 @@
               <!-- Item 6 -->
               <div class="tech-card">
                 <!-- Imagen -->
-                <i class="ci ci-figma ci-4x"></i>
+                <i class="ci ci-js ci-3x items-center"></i>
+              </div>
+              <!-- Item 7 -->
+              <div class="tech-card">
+                <!-- Imagen -->
+                <i class="ci ci-bootstrap ci-3x pt-1"></i>
               </div>
             </div>
 
-            <!-- Other Skills Container -->
-            <div class="py-4 md:pt-2 md:px-6">
-              <!-- Skill Title -->
-              <div class="text-xl md:text-2xl px-3 uppercase">
-                <h4>Otras Skills</h4>
+            <!-- Desing Items Container -->
+            <div class="flex flex-col py-4 md:pt-2">
+              <!-- Desing Sub Title -->
+              <div
+                class="mx-auto pb-6 text-xl text-neutral-300 font-semibold md:pl-[54px] md:mx-0"
+              >
+                <h4>Diseño</h4>
               </div>
-              <!-- Skills Item Container -->
-              <div class="flex justify-center">
+              <!-- Desing Item Container -->
+              <div
+                class="grid grid-cols-2 gap-x-7 justify-center mx-auto md:grid-cols-7 md:gap-x-9 md:gap-y-1"
+              >
                 <!-- Item 1 -->
-                <div class="skill-card">
+                <div class="tech-card">
+                  <!-- Imagen -->
+                  <i class="ci ci-figma ci-3x pt-1"></i>
+                </div>
+                <!-- Item 2 -->
+                <div class="tech-card">
+                  <!-- Imagen -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="48"
+                    height="48"
+                    viewBox="0 0 256 256"
+                    id="adobe-illustrator"
+                  >
+                    <g>
+                      <rect
+                        width="240"
+                        height="232"
+                        x="8"
+                        y="12"
+                        fill="#300"
+                        rx="42"
+                      ></rect>
+                    </g>
+                    <path
+                      fill="#ff9a00"
+                      d="M128.79 156H93l-9.24 26.68Q83.6 184 82.09 184H65.29q-1.68 0-1.17-1.65L96.54 86.06A29.5 29.5 0 0097.88 77a.89.89 0 011-1H122.4c.68 0 1.07.28 1.18.82l36.28 105.7c.34 1 .06 1.48-.84 1.48H140.21a1.74 1.74 0 01-1.68-1zM97 138h27.88c-.67-1.47-13.21-41.93-14.11-45.34h-.16zM179.91 96a11.81 11.81 0 01-8.61-3.21 11.55 11.55 0 01-3.3-8.7 11.71 11.71 0 013.39-8.79 12 12 0 018.7-3.3 11.55 11.55 0 018.7 3.3A12.07 12.07 0 01192 84.09a11.55 11.55 0 01-3.3 8.7A12.07 12.07 0 01179.91 96zM170 182.5V105.34a1.18 1.18 0 011.34-1.34h17.32a1.19 1.19 0 011.34 1.34v77.32a1.18 1.18 0 01-1.34 1.34H171.5A1.33 1.33 0 01170 182.5z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <!-- Back-end Container -->
+            <div class="flex flex-col py-4 md:pt-2">
+              <!-- Back-end Sub Title -->
+              <div
+                class="mx-auto pb-6 text-xl text-neutral-300 font-semibold md:pl-[54px] md:mx-0"
+              >
+                <h4>Back-end</h4>
+              </div>
+              <!-- Back-end Item Container -->
+              <div
+                class="grid grid-cols-2 gap-x-7 justify-center mx-auto md:grid-cols-7 md:gap-x-9 md:gap-y-1"
+              >
+                <!-- Item 1 -->
+                <div class="tech-card">
                   <!-- Imagen -->
                   <i class="ci ci-mysql-vertical ci-3x"></i>
                 </div>
-                <!-- Item 2 -->
-                <div class="skill-card">
-                  <!-- Imagen -->
-                  <i class="ci ci-bootstrap ci-3x"></i>
-                </div>
                 <!-- Item 3 -->
-                <div class="skill-card">
+                <div class="tech-card">
                   <!-- Imagen -->
                   <i class="ci ci-php ci-3x"></i>
                 </div>

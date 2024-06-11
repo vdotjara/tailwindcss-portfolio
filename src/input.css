@@ -10,10 +10,14 @@
     }
 }
 
-#tech .tech-card {
-    @apply mx-auto bg-neutral-900 rounded-xl p-10 m-3;
+body .titulo {
+    @apply flex py-6 text-xl md:text-4xl uppercase;
 }
 
-#tech .skill-card {
-    @apply bg-neutral-900 rounded-xl p-5 m-3;
+body .link-btn {
+    @apply flex mx-auto text-xl border rounded-xl items-center justify-center text-black bg-white;
+}
+
+#tech .tech-card {
+    @apply mx-auto bg-neutral-900 rounded-xl p-10 m-3 hover:scale-110 duration-200;
 }
