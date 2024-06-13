@@ -13,7 +13,7 @@ body .titulo {
   @apply flex text-2xl font-Syne md:text-4xl hover:translate-y-1 duration-100;
 }
 
-body .link-btn {
+body .cta-btn {
   @apply flex mx-auto text-xl border rounded-xl items-center justify-center text-black bg-white;
 }
 
