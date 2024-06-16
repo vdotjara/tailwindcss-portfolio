@@ -1,22 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @font-face {
-  font-family: "Syne"; 
-    src: url("./assets/Syne-bold.otf");
+  font-family: "Syne";
+  src: url("./assets/Syne-bold.otf");
 }
 
 body .titulo {
-  @apply flex text-2xl font-Syne md:text-4xl hover:translate-y-1 duration-100;
+  @apply flex text-3xl font-Syne md:text-4xl hover:translate-y-1 duration-100;
 }
 
 body .cta-btn {
   @apply flex mx-auto text-xl border rounded-xl items-center justify-center text-black bg-white;
 }
 
-#tech .tech-card {
-  @apply mx-auto bg-neutral-900 rounded-xl p-10 m-3 hover:scale-110 duration-200;
+#tech .tech-container {
+  @apply flex text-4xl justify-start gap-x-7 md:gap-x-9 md:gap-y-1;
+}
+
+#tech .tech-item {
+  @apply hover:underline decoration-wavy;
 }
