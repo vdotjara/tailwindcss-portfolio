@@ -3,6 +3,13 @@ module.exports = {
   content: ["./public/*.{html,js}"],
   theme: {
     extend: {
+      colors: {
+        'text': '#000000',
+        'background': '#fffafa',
+        'primary': '#165cff',
+        'secondary': '#164c7e',
+        'accent': '#e88121',
+       },
       screens: {
         sm: "480px",
         md: "768px",

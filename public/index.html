@@ -10,7 +10,7 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-black text-white mx-auto max-w-7xl font-Familjen">
+  <body class="bg-background text-text mx-auto max-w-7xl font-Familjen">
     <!-- Nav Section -->
     <nav
       class="flex item-center justify-between sticky top-0 p-8 z-10 backdrop-filter backdrop-blur-lg"
@@ -36,7 +36,7 @@
         <div class="flex flex-col">
           <!-- Hero Heading -->
           <div
-            class="mx-auto py-12 font-bold font-Syne text-6xl md:pt-12 md:text-[9rem] md:mx-0 md:pb-20 md:tracking-tight"
+            class="text-primary mx-auto py-12 font-bold font-Syne text-7xl md:pt-12 md:text-[9rem] md:mx-0 md:pb-20 md:tracking-tight"
           >
             <h1>Victor Jara</h1>
           </div>
@@ -47,82 +47,83 @@
           >
             <!-- Hero Text -->
             <div class="md:mb-14">
-              <h3
-                class="text-3xl mb-5 font-semibold md:text-4xl uppercase md:mb-3"
-              >
+              <h3 class="text-4xl mb-5 font-bold md:text-4xl uppercase md:mb-3">
                 Desarrollador & Diseñador Web
               </h3>
               <p
-                class="tracking-wide text-neutral-400 text-xl font-light md:text-2xl md:max-w-xl md:text-left"
+                class="tracking-wide opacity-85 text-xl md:text-2xl md:max-w-xl md:text-left"
               >
                 Con una pasión por la creación de experiencias solidas y de
                 calidad, enfocado en la eficiencia y la creatividad. Siempre
                 dejando mi sello creativo y estético.
               </p>
             </div>
-            <!-- Socials Container -->
-            <div
-              class="flex mt-32 pb-10 justify-between space-x-24 mx-auto font-semibold md:p-0"
-            >
-              <!-- GitHub Logo -->
-              <div class="">
-                <a
-                  href="https://github.com/vdotjara"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="white"
-                    class="size-12"
+            <!-- Buttons Section -->
+            <div class="flex flex-col md:flex-col-reverse">
+              <!-- Links Container -->
+              <div
+                class="flex mt-32 pb-10 justify-between space-x-24 mx-auto font-semibold md:p-0 md:mt-20"
+              >
+                <!-- GitHub Logo -->
+                <div class="social-btn">
+                  <a
+                    href="https://github.com/vdotjara"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    <path
-                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
-                    />
-                  </svg>
-                </a>
-              </div>
-              <!-- LinkedIn Logo -->
-              <div class="">
-                <a
-                  href="https://www.linkedin.com/in/vdotjara/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="white"
-                    class="size-12"
-                  >
-                    <path
-                      d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-            <!-- Contact Button -->
-            <div class="mx-16 md:mx-0">
-              <a href="#">
-                <div class="cta-btn">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 22 24"
-                    fill="#00020b"
-                    class="size-12 py-1"
-                  >
-                    <path
-                      d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"
-                    />
-                    <path
-                      d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"
-                    />
-                  </svg>
-                  <p class="text-center mx-auto px-4 font-bold">contáctame</p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="black"
+                      class="size-12"
+                    >
+                      <path
+                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                      />
+                    </svg>
+                  </a>
                 </div>
-              </a>
+                <!-- LinkedIn Logo -->
+                <div class="social-btn">
+                  <a
+                    href="https://www.linkedin.com/in/vdotjara/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="black"
+                      class="size-12"
+                    >
+                      <path
+                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <!-- Contact Button -->
+              <div class="mx-16 md:mx-0">
+                <a href="#">
+                  <div class="cta-btn">
+                    <!--                     <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 22 24"
+                      fill="#00020b"
+                      class="size-12 py-1"
+                    >
+                      <path
+                        d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"
+                      />
+                      <path
+                        d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"
+                      />
+                    </svg> -->
+                    <p class="mx-auto text-2xl">Contáctame</p>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -131,120 +132,147 @@
       <!-- About Me Section -->
       <section id="about">
         <!-- About Container -->
-        <div class="flex flex-col py-12 group">
+        <div class="flex flex-col py-12">
           <!-- Title -->
           <div class="titulo">
             <h3>Sobre Mi</h3>
           </div>
-          <!-- About Content -->
-          <div class="flex flex-col">
-            <!-- About Me Text -->
+          <!-- About Me Text -->
+          <div
+            class="text-left text-2xl opacity-85 py-6 max-w-sm md:text-3xl md:max-w-3xl md:pb-12"
+          >
+            <p>
+              Nacido en 2001, desde Lota. Después de encontrarme en un vacío al
+              terminar mis estudios universitarios, he encontrado mi lugar
+              dentro del diseño y desarrollo, algo que me inspira a seguir
+              creciendo como profesional, en búsqueda de desafíos que me ayuden
+              a mejorar personalmente y a las personas con las que trabajo.
+              Tengo experiencia trabajando por mi cuenta y como en equipo,
+              trabajando con metodologías agiles, resolviendo las necesidades
+              del cliente.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TeckStack Section -->
+      <section id="tech">
+        <!-- Tech Stack Container -->
+        <div class="flex flex-col pt-20 md:py-10">
+          <!-- Title -->
+          <div class="titulo">
+            <h3>Tecnologías</h3>
+          </div>
+
+          <!-- Tech Container -->
+          <div
+            class="flex flex-col py-4 md:pt-2 md:flex-row md:justify-between"
+          >
+            <!-- Front-end Container -->
+            <div class="flex flex-col py-4 md:pt-2">
+              <!-- Sub Title -->
+              <div class="pb-6 text-2xl opacity-85">
+                <h4>Front-end</h4>
+              </div>
+              <!-- Front-end Items Container -->
+              <div class="tech-container">
+                <!-- Items -->
+                <p class="tech-item">HTML 5</p>
+                <p class="tech-item">CSS</p>
+                <p class="tech-item">TailwindCSS</p>
+                <p class="tech-item">React JS</p>
+                <p class="tech-item">WordPress</p>
+                <p class="tech-item">JavaScript</p>
+                <p class="tech-item">Bootstrap</p>
+              </div>
+            </div>
+
+            <!-- Others Items Container -->
             <div
-              class="text-left text-2xl text-neutral-400 py-6 max-w-sm md:text-4xl md:max-w-3xl md:pb-12"
+              class="flex flex-col justify-between py-4 space-y-8 md:space-y-14 md:pt-2"
             >
-              <p>
-                Nacido en 2001, desde Lota. Después de encontrarme en un vacío
-                al terminar mis estudios universitarios, he encontrado mi lugar
-                dentro del diseño y desarrollo, algo que me inspira a seguir
-                creciendo como profesional, en búsqueda de desafíos que me
-                ayuden a mejorar personalmente y a las personas con las que
-                trabajo. Tengo experiencia trabajando por mi cuenta y como en
-                equipo, trabajando con metodologías agiles, resolviendo las
-                necesidades del cliente.
-              </p>
-            </div>
+              <!-- Desing Items Container -->
+              <div class="flex flex-col">
+                <!-- Desing Sub Title -->
+                <div class="pb-6 text-2xl opacity-85">
+                  <h4>Diseño</h4>
+                </div>
+                <!-- Desing Item Container -->
+                <div class="tech-container">
+                  <p class="tech-item">Figma</p>
+                  <p class="tech-item">Adobe Illustrator</p>
+                </div>
+              </div>
 
-            <!-- Experience Section -->
-            <div class="container flex flex-col pt-20 md:py-10">
-              <!-- Title -->
-              <div class="titulo">
-                <h3>Experiencia</h3>
-              </div>
-              <!-- Exp Items Container -->
-              <div class="container flex flex-col py-6">
-                <!-- Item 1 -->
-                <div class="border-t pt-2">
-                  <h2 class="text-xl py-1 font-semibold md:text-2xl md:pb-1">
-                    Desarrollador Front-end con WordPress
-                  </h2>
-                  <h2 class="md:text-xl pb-2">
-                    Comercializadora e Importadora IHPE Limitada
-                  </h2>
-                  <p class="text-end text-neutral-400 md:text-xl">
-                    Septiembre 2023 / Diciembre 2023
-                  </p>
+              <!-- Back-end Container -->
+              <div class="flex flex-col align-bottom">
+                <!-- Back-end Sub Title -->
+                <div class="pb-6 text-2xl opacity-85">
+                  <h4>Back-end</h4>
                 </div>
-              </div>
-            </div>
-
-            <!-- My Studies Section -->
-            <div class="container flex flex-col pt-20 md:py-10">
-              <!-- Title -->
-              <div class="titulo justify-end">
-                <h3>Estudios</h3>
-              </div>
-              <!-- Studies Item Container -->
-              <div class="flex flex-col text-start py-6 space-y-4">
-                <!-- Item 1 -->
-                <div class="border-t pt-2">
-                  <h2 class="text-xl font-semibold md:text-2xl md:pb-1">
-                    Técnico en Computación e Informática
-                  </h2>
-                  <h2 class="md:text-xl">
-                    Centro de Formacion Tecnica Lota-Arauco
-                  </h2>
-                  <p class="text-end text-neutral-400 md:text-xl">
-                    2019 / 2020
-                  </p>
+                <!-- Back-end Item Container -->
+                <div class="tech-container">
+                  <p class="tech-item">MySQL</p>
+                  <p class="tech-item">PHP</p>
                 </div>
-                <!-- Item 2 -->
-                <div class="border-t pt-2">
-                  <h2 class="text-xl font-semibold md:text-2xl md:pb-1">
-                    Ingeniería en Computación e Informática
-                  </h2>
-                  <h2 class="md:text-xl">
-                    Instituto Profesional Virginio Gómez
-                  </h2>
-                  <p class="text-end text-neutral-400 md:text-xl">
-                    2021 / 2023
-                  </p>
-                </div>
-              </div>
-              <!-- CV Download Button -->
-              <div
-                class="flex flex-col mt-20 justify-between space-y-5 mx-auto font-semibold"
-              >
-                <a
-                  href="../src/CV - Victor Jara.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="cta-btn pr-3">
-                    <!-- SVG -->
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="black"
-                      class="size-12 py-1"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M5.625 1.5H9a3.75 3.75 0 0 1 3.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 0 1 3.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 0 1-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875Zm5.845 17.03a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72V12a.75.75 0 0 0-1.5 0v4.19l-1.72-1.72a.75.75 0 0 0-1.06 1.06l3 3Z"
-                        clip-rule="evenodd"
-                      />
-                      <path
-                        d="M14.25 5.25a5.23 5.23 0 0 0-1.279-3.434 9.768 9.768 0 0 1 6.963 6.963A5.23 5.23 0 0 0 16.5 7.5h-1.875a.375.375 0 0 1-.375-.375V5.25Z"
-                      />
-                    </svg>
-                    <!-- Text -->
-                    <p>Descargar CV</p>
-                  </div>
-                </a>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <!-- Experience Section -->
+      <section id="experience">
+        <!-- Experience Container -->
+        <div class="container flex flex-col pt-20 md:py-10">
+          <!-- Title -->
+          <div class="titulo">
+            <h3>Experiencia</h3>
+          </div>
+          <!-- Exp Items Container -->
+          <div class="container flex flex-col py-6">
+            <!-- Item 1 -->
+            <div class="border-t pt-2">
+              <h2 class="name">Desarrollador Front-end con WordPress</h2>
+              <h2 class="institution">
+                Comercializadora e Importadora IHPE Limitada
+              </h2>
+              <p class="text-end text-neutral-500 md:text-xl">
+                Septiembre 2023 / Diciembre 2023
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Studies Section -->
+      <section id="studies">
+        <!-- My Studies Container -->
+        <div class="container flex flex-col pt-20 md:py-10">
+          <!-- Title -->
+          <div class="titulo justify-end">
+            <h3>Estudios</h3>
+          </div>
+          <!-- Studies Items Container -->
+          <div class="flex flex-col text-start py-6 space-y-4">
+            <!-- Item 1 -->
+            <div class="border-t pt-2">
+              <h2 class="name">Técnico en Computación e Informática</h2>
+              <h2 class="institution">
+                Centro de Formacion Tecnica Lota-Arauco
+              </h2>
+              <p class="text-end text-neutral-500 md:text-xl">2019 / 2020</p>
+            </div>
+            <!-- Item 2 -->
+            <div class="border-t pt-2">
+              <h2 class="name">Ingeniería en Computación e Informática</h2>
+              <h2 class="institution">Instituto Profesional Virginio Gómez</h2>
+              <p class="text-end text-neutral-500 md:text-xl">2021 / 2023</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- @todo CV Download Button -->
 
       <!-- Projects Section -->
       <section id="projects">
@@ -269,72 +297,6 @@
               <div class="flex flex-col p-5 py-3 border-t w-full bottom-0">
                 <h2 class="text-xl font-bold">E-Commerce IHPE Ltda.</h2>
                 <p class="text-lg">Desarrollador Front-end</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- TeckStack Section -->
-      <section id="tech">
-        <!-- Tech Stack Container -->
-        <div class="flex flex-col pt-20 md:py-10">
-          <!-- Title -->
-          <div class="titulo justify-end">
-            <h3>Tecnologías</h3>
-          </div>
-
-          <!-- Tech Container -->
-          <div class="flex flex-col py-4 md:pt-2 md:flex-row md:justify-between">
-            <!-- Front-end Container -->
-            <div class="flex flex-col py-4 md:pt-2">
-              <!-- Sub Title -->
-              <div class="pb-6 text-3xl text-neutral-300">
-                <h4>Texto...</h4>
-              </div>
-              <!-- Front-end Items Container -->
-              <div
-                class="flex flex-row flex-wrap text-4xl justify-start gap-x-7 gap-y-3 md:gap-x-9 md:gap-y-1 md:flex-col"
-              >
-                <!-- Items -->
-                <p class="tech-item">HTML 5</p>
-                <p class="tech-item">CSS</p>
-                <p class="tech-item">TailwindCSS</p>
-                <p class="tech-item">React JS</p>
-                <p class="tech-item">WordPress</p>
-                <p class="tech-item">JavaScript</p>
-                <p class="tech-item">Bootstrap</p>
-              </div>
-            </div>
-
-            <!-- Others Items Container -->
-            <div class="flex flex-col py-4 space-y-8 md:space-y-14 md:pt-2">
-              <!-- Desing Items Container -->
-              <div class="flex flex-col">
-                <!-- Desing Sub Title -->
-                <div class="pb-6 text-3xl text-neutral-300">
-                  <h4>Diseño pero mas textoo...</h4>
-                </div>
-                <!-- Desing Item Container -->
-                <div
-                  class="flex text-4xl justify-start gap-x-7 md:gap-x-9 md:gap-y-3"
-                >
-                  <p class="tech-item">Figma</p>
-                  <p class="tech-item">Adobe Illustrator</p>
-                </div>
-              </div>
-              
-              <!-- Back-end Container -->
-              <div class="flex flex-col">
-                <!-- Back-end Sub Title -->
-                <div class="pb-6 text-3xl text-neutral-300">
-                  <h4>Back-end algo de texto...</h4>
-                </div>
-                <!-- Back-end Item Container -->
-                <div class="tech-container">
-                  <p class="tech-item">MySQL</p>
-                  <p class="tech-item">PHP</p>
-                </div>
               </div>
             </div>
           </div>
