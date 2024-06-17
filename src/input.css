@@ -22,5 +22,5 @@ body .cta-btn {
 }
 
 #tech .tech-item {
-  @apply hover:underline decoration-wavy;
+  @apply select-none duration-200;
 }
