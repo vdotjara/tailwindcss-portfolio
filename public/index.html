@@ -43,7 +43,7 @@
 
           <!-- Hero Content -->
           <div
-            class="flex flex-col mx-auto mt-24 text-center pb-28 md:py-40 md:mx-0 md:items-end md:justify-between md:text-start md:flex-row-reverse"
+            class="flex flex-col mx-auto mt-24 text-center pb-28 md:py-44 md:mx-0 md:items-end md:justify-between md:text-start md:flex-row-reverse"
           >
             <!-- Hero Text -->
             <div class="md:mb-14">
@@ -62,7 +62,7 @@
             <div class="flex flex-col md:flex-col-reverse">
               <!-- Links Container -->
               <div
-                class="flex mt-32 pb-10 justify-between space-x-24 mx-auto font-semibold md:p-0 md:mt-20"
+                class="flex mt-24 pb-10 justify-between space-x-24 mx-auto font-semibold md:p-0 md:mt-20"
               >
                 <!-- GitHub Logo -->
                 <div class="social-btn">
@@ -126,16 +126,17 @@
           </div>
           <!-- About Me Text -->
           <div
-            class="whitespace-pre-line text-pretty text-left text-2xl opacity-85 py-6 max-w-sm md:text-3xl md:max-w-3xl md:pb-12"
+            class="text-pretty text-left text-2xl opacity-85 max-w-sm space-y-2 md:text-3xl md:max-w-4xl md:pb-12"
           >
+            <p>Nacido en 2001, desde Lota.</p>
             <p>
-              Nacido en 2001, desde Lota. 
-
-              Después de encontrarme en un vacío al terminar mis estudios universitarios, he encontrado mi lugar
-              dentro del diseño y desarrollo, algo que me inspira a seguir
-              creciendo como profesional, en búsqueda de desafíos que me ayuden
-              a mejorar personalmente y a las personas con las que trabajo.
-
+              Después de encontrarme en un vacío al terminar mis estudios
+              universitarios, he encontrado mi lugar dentro del diseño y
+              desarrollo, algo que me inspira a seguir creciendo como
+              profesional, en búsqueda de desafíos que me ayuden a mejorar
+              personalmente y a las personas con las que trabajo.
+            </p>
+            <p>
               Con experiencia trabajando por mi cuenta y como en equipo,
               trabajando con metodologías agiles, resolviendo las necesidades
               del cliente.
@@ -154,11 +155,9 @@
           </div>
 
           <!-- Tech Container -->
-          <div
-            class="flex flex-col py-4 md:pt-2 md:flex-row md:justify-between"
-          >
+          <div class="flex flex-col md:flex-row md:justify-between">
             <!-- Front-end Container -->
-            <div class="flex flex-col py-4 md:pt-2">
+            <div class="flex flex-col">
               <!-- Sub Title -->
               <div class="pb-6 text-2xl opacity-85">
                 <h4>Front-end</h4>
@@ -177,9 +176,7 @@
             </div>
 
             <!-- Others Items Container -->
-            <div
-              class="flex flex-col justify-between py-4 space-y-8 md:space-y-14 md:pt-2"
-            >
+            <div class="flex flex-col justify-between space-y-8 md:space-y-14">
               <!-- Desing Items Container -->
               <div class="flex flex-col">
                 <!-- Desing Sub Title -->
@@ -219,7 +216,7 @@
             <h3>Experiencia</h3>
           </div>
           <!-- Exp Items Container -->
-          <div class="container flex flex-col py-6">
+          <div class="container flex flex-col">
             <!-- Item 1 -->
             <div class="border-t pt-2">
               <h2 class="name">Desarrollador Front-end con WordPress</h2>
@@ -243,7 +240,7 @@
             <h3>Estudios</h3>
           </div>
           <!-- Studies Items Container -->
-          <div class="flex flex-col text-start py-6 space-y-4">
+          <div class="flex flex-col text-start space-y-4">
             <!-- Item 1 -->
             <div class="border-t pt-2">
               <h2 class="name">Técnico en Computación e Informática</h2>
@@ -272,20 +269,53 @@
             <h3>Proyectos</h3>
           </div>
           <!-- Projects Content -->
-          <div class="flex flex-col gap-4 py-6 mx-auto md:grid md:grid-cols-2">
+          <div class="flex flex-col mx-auto space-y-12 md:space-y-24">
             <!-- Item 1 -->
-            <div class="flex flex-col items-center">
+            <div class="flex flex-col md:w-3/4 md:mr-auto"> 
               <!-- Imagen -->
-              <a
-                href="https://ihpeltda.cl/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img src="img/project-ihpe.png" alt="" class=""
-              /></a>
+              <img
+                src="img/project-ihpe.png"
+                alt=""
+                class="w-full rounded-xl"
+              />
               <!-- Content -->
-              <div class="flex flex-col p-5 py-3 border-t w-full bottom-0">
-                <h2 class="text-xl font-bold">E-Commerce IHPE Ltda.</h2>
-                <p class="text-lg">Desarrollador Front-end</p>
+              <div
+                class="flex flex-col pl-1 py-3 w-full bottom-0 md:flex-row md:justify-between md:items-start"
+              >
+                <!-- Text Info -->
+                <div class="flex flex-col">
+                  <h2 class="text-2xl font-bold">E-Commerce IHPE Ltda.</h2>
+                  <p class="text-xl">Desarrollador Front-end</p>
+                </div>
+                <div class="mx-16 md:m-0">
+                  <a href="https://ihpeltda.cl/">
+                    <div class="ir-a-btn">Ir a</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="flex flex-col md:w-3/4 md:ml-auto">
+              <!-- Imagen -->
+              <img
+                src="img/project-portfolio.png"
+                alt=""
+                class="w-full rounded-xl"
+              />
+              <!-- Content -->
+              <div
+                class="flex flex-col pl-1 py-3 w-full bottom-0 md:flex-row md:justify-between md:items-start"
+              >
+                <!-- Text Info -->
+                <div class="flex flex-col">
+                  <h2 class="text-2xl font-bold">Portafolio Personal</h2>
+                  <p class="text-xl">Desarrollador Front-end</p>
+                </div>
+                <div class="mx-16 md:m-0">
+                  <a href="https://vdotportfolio.netlify.app/">
+                    <div class="ir-a-btn">Ir a</div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>

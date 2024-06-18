@@ -10,7 +10,7 @@
 }
 
 body .titulo {
-  @apply flex text-4xl text-primary font-Syne md:pb-10 md:text-4xl;
+  @apply flex text-4xl text-primary font-Syne pb-10 md:text-4xl;
 }
 
 .name {
@@ -22,7 +22,7 @@ body .titulo {
 }
 
 .cta-btn {
-  @apply flex mx-auto border-2 border-black rounded-xl py-4 px-10 text-black bg-accent hover:-translate-y-1 duration-150;
+  @apply mx-auto border-2 border-black rounded-xl py-4 px-10 text-black bg-accent hover:-translate-y-1 duration-150;
 }
 
 .social-btn {
@@ -39,4 +39,8 @@ body .titulo {
 
 #tech h4 {
   @apply text-secondary font-semibold;
+}
+
+#projects .ir-a-btn {
+  @apply my-4 text-xl text-center border-2 border-black rounded-xl py-4 px-10 text-black bg-accent hover:-translate-y-1 duration-150 md:m-0;
 }

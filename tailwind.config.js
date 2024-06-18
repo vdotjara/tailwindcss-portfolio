@@ -8,7 +8,7 @@ module.exports = {
         'background': '#fffafa',
         'primary': '#165cff',
         'secondary': '#164c7e',
-        'accent': '#e88121',
+        'accent': '#FD560E',
        },
       screens: {
         sm: "480px",
