@@ -18,7 +18,7 @@ body .titulo {
 }
 
 .institution {
-  @apply text-xl md:text-2xl pb-2;
+  @apply text-xl pb-2 text-secondary md:text-2xl;
 }
 
 .cta-btn {
@@ -38,5 +38,5 @@ body .titulo {
 }
 
 #projects .ir-a-btn {
-  @apply mt-7 text-xl text-center border-2 border-black rounded-xl py-3 px-10 text-black bg-accent hover:-translate-y-1 duration-150 md:m-0;
+  @apply flex mt-7 text-xl text-center items-center border-2 border-black rounded-xl py-3 px-5 space-x-2 text-black bg-accent hover:-translate-y-1 duration-150 md:m-0;
 }
