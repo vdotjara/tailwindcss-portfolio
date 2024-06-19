@@ -13,7 +13,7 @@
   <body class="bg-background text-text mx-auto max-w-7xl font-Familjen">
     <!-- Nav Section -->
     <nav
-      class="flex item-center justify-between sticky top-0 p-8 z-10 backdrop-filter backdrop-blur-lg"
+      class="flex item-center font-semibold justify-between sticky top-0 p-8 z-10 backdrop-filter backdrop-blur-lg"
     >
       <!-- Logo / Now Just a Text -->
       <h1>VDOTJARA</h1>
@@ -119,7 +119,7 @@
       <!-- About Me Section -->
       <section id="about">
         <!-- About Container -->
-        <div class="flex flex-col py-12">
+        <div class="flex flex-col pt-12">
           <!-- Title -->
           <div class="titulo">
             <h3>Sobre Mi</h3>
@@ -155,11 +155,11 @@
           </div>
 
           <!-- Tech Container -->
-          <div class="flex flex-col md:flex-row md:justify-between">
+          <div class="flex flex-col space-y-6 md:flex-row md:justify-between">
             <!-- Front-end Container -->
             <div class="flex flex-col">
               <!-- Sub Title -->
-              <div class="pb-6 text-2xl opacity-85">
+              <div class="pb-3 text-2xl opacity-85">
                 <h4>Front-end</h4>
               </div>
               <!-- Front-end Items Container -->
@@ -176,56 +176,30 @@
             </div>
 
             <!-- Others Items Container -->
-            <div class="flex flex-col justify-between space-y-8 md:space-y-14">
-              <!-- Desing Items Container -->
-              <div class="flex flex-col">
-                <!-- Desing Sub Title -->
-                <div class="pb-6 text-2xl opacity-85">
-                  <h4>Diseño</h4>
-                </div>
-                <!-- Desing Item Container -->
-                <div class="tech-container">
-                  <p class="tech-item">Figma</p>
-                  <p class="tech-item">Adobe Illustrator</p>
-                </div>
-              </div>
 
-              <!-- Back-end Container -->
-              <div class="flex flex-col align-bottom">
-                <!-- Back-end Sub Title -->
-                <div class="pb-6 text-2xl opacity-85">
-                  <h4>Back-end</h4>
-                </div>
-                <!-- Back-end Item Container -->
-                <div class="tech-container">
-                  <p class="tech-item">MySQL</p>
-                  <p class="tech-item">PHP</p>
-                </div>
+            <!-- Desing Items Container -->
+            <div class="flex flex-col">
+              <!-- Desing Sub Title -->
+              <div class="pb-3 text-2xl opacity-85">
+                <h4>Diseño</h4>
+              </div>
+              <!-- Desing Item Container -->
+              <div class="tech-container">
+                <p class="tech-item">Figma</p>
+                <p class="tech-item">Adobe Illustrator</p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Experience Section -->
-      <section id="experience">
-        <!-- Experience Container -->
-        <div class="container flex flex-col pt-20 md:py-10">
-          <!-- Title -->
-          <div class="titulo">
-            <h3>Experiencia</h3>
-          </div>
-          <!-- Exp Items Container -->
-          <div class="container flex flex-col">
-            <!-- Item 1 -->
-            <div class="border-t pt-2">
-              <h2 class="name">Desarrollador Front-end con WordPress</h2>
-              <h2 class="institution">
-                Comercializadora e Importadora IHPE Limitada
-              </h2>
-              <p class="text-end text-neutral-500 md:text-xl">
-                Septiembre 2023 / Diciembre 2023
-              </p>
+            <!-- Back-end Container -->
+            <div class="flex flex-col align-bottom">
+              <!-- Back-end Sub Title -->
+              <div class="pb-3 text-2xl opacity-85">
+                <h4>Back-end</h4>
+              </div>
+              <!-- Back-end Item Container -->
+              <div class="tech-container">
+                <p class="tech-item">MySQL</p>
+                <p class="tech-item">PHP</p>
+              </div>
             </div>
           </div>
         </div>
@@ -258,12 +232,37 @@
           </div>
         </div>
       </section>
+
+      <!-- Experience Section -->
+      <section id="experience">
+        <!-- Experience Container -->
+        <div class="container flex flex-col pt-20 md:py-10">
+          <!-- Title -->
+          <div class="titulo">
+            <h3>Experiencia</h3>
+          </div>
+          <!-- Exp Items Container -->
+          <div class="container flex flex-col">
+            <!-- Item 1 -->
+            <div class="border-t pt-2">
+              <h2 class="name">Desarrollador Front-end con WordPress</h2>
+              <h2 class="institution">
+                Comercializadora e Importadora IHPE Limitada
+              </h2>
+              <p class="text-end text-neutral-500 md:text-xl">
+                Septiembre 2023 / Diciembre 2023
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- @todo CV Download Button -->
 
       <!-- Projects Section -->
       <section id="projects">
         <!-- Projects Container -->
-        <div class="py-12">
+        <div class="my-40">
           <!-- Title -->
           <div class="titulo">
             <h3>Proyectos</h3>
@@ -271,7 +270,7 @@
           <!-- Projects Content -->
           <div class="flex flex-col mx-auto space-y-12 md:space-y-24">
             <!-- Item 1 -->
-            <div class="flex flex-col md:w-3/4 md:mr-auto"> 
+            <div class="flex flex-col md:w-2/3 md:mr-auto">
               <!-- Imagen -->
               <img
                 src="img/project-ihpe.png"
@@ -279,23 +278,26 @@
                 class="w-full rounded-xl"
               />
               <!-- Content -->
-              <div
-                class="flex flex-col pl-1 py-3 w-full bottom-0 md:flex-row md:justify-between md:items-start"
-              >
+              <div class="flex flex-col py-1 py-3 w-full bottom-0">
                 <!-- Text Info -->
                 <div class="flex flex-col">
                   <h2 class="text-2xl font-bold">E-Commerce IHPE Ltda.</h2>
                   <p class="text-xl">Desarrollador Front-end</p>
                 </div>
-                <div class="mx-16 md:m-0">
-                  <a href="https://ihpeltda.cl/">
-                    <div class="ir-a-btn">Ir a</div>
+                <div class="flex space-x-4 justify-end md:m-0">
+                  <a
+                    href="https://ihpeltda.cl/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="ir-a-btn">Visitar</div>
                   </a>
                 </div>
               </div>
             </div>
+
             <!-- Item 2 -->
-            <div class="flex flex-col md:w-3/4 md:ml-auto">
+            <div class="flex flex-col md:w-2/3 md:ml-auto">
               <!-- Imagen -->
               <img
                 src="img/project-portfolio.png"
@@ -303,17 +305,26 @@
                 class="w-full rounded-xl"
               />
               <!-- Content -->
-              <div
-                class="flex flex-col pl-1 py-3 w-full bottom-0 md:flex-row md:justify-between md:items-start"
-              >
+              <div class="flex flex-col py-1 py-3 w-full bottom-0">
                 <!-- Text Info -->
                 <div class="flex flex-col">
                   <h2 class="text-2xl font-bold">Portafolio Personal</h2>
                   <p class="text-xl">Desarrollador Front-end</p>
                 </div>
-                <div class="mx-16 md:m-0">
-                  <a href="https://vdotportfolio.netlify.app/">
-                    <div class="ir-a-btn">Ir a</div>
+                <div class="flex space-x-4 justify-end md:m-0">
+                  <a
+                    href="https://github.com/vdotjara/tailwindcss-portfolio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="ir-a-btn">Codigo</div>
+                  </a>
+                  <a
+                    href="https://vdotportfolio.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div class="ir-a-btn">Visitar</div>
                   </a>
                 </div>
               </div>

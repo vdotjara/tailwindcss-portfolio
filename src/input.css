@@ -33,14 +33,10 @@ body .titulo {
   @apply flex flex-row flex-wrap text-3xl justify-start gap-x-7 gap-y-3 md:gap-x-9 md:gap-y-1 md:flex-col;
 }
 
-#tech .tech-item {
-  @apply select-none;
-}
-
 #tech h4 {
   @apply text-secondary font-semibold;
 }
 
 #projects .ir-a-btn {
-  @apply my-4 text-xl text-center border-2 border-black rounded-xl py-4 px-10 text-black bg-accent hover:-translate-y-1 duration-150 md:m-0;
+  @apply mt-7 text-xl text-center border-2 border-black rounded-xl py-3 px-10 text-black bg-accent hover:-translate-y-1 duration-150 md:m-0;
 }
