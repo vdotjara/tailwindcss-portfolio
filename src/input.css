@@ -22,7 +22,7 @@ body .titulo {
 }
 
 .cta-btn {
-  @apply mx-auto border-2 border-black rounded-xl py-4 px-10 text-black bg-accent hover:-translate-y-1 duration-150;
+  @apply mx-auto text-center border-2 border-black rounded-xl py-4 text-black bg-accent hover:-translate-y-[6px] duration-150;
 }
 
 .social-btn {
@@ -37,6 +37,6 @@ body .titulo {
   @apply text-secondary font-semibold;
 }
 
-#projects .ir-a-btn {
-  @apply flex mt-7 text-xl text-center items-center border-2 border-black rounded-xl py-3 px-5 space-x-2 text-black bg-accent hover:-translate-y-1 duration-150 md:m-0;
+#proyectos .ir-a-btn {
+  @apply flex mt-5 text-xl text-center items-center border-2 border-black rounded-xl py-3 px-5 space-x-2 text-black  hover:bg-accent hover:-translate-y-1 duration-150 md:m-0;
 }

@@ -9,6 +9,7 @@
       href="https://cdn.jsdelivr.net/gh/dheereshagrwal/colored-icons@1.7.5/src/app/ci.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="js/script.js" defer />
   </head>
   <body class="bg-background text-text mx-auto max-w-7xl font-Familjen">
     <!-- Nav Section -->
@@ -22,7 +23,7 @@
         <a href="#about" class="hover:opacity-50 transition duration-700"
           >Sobre Mi</a
         >
-        <a href="#projects" class="hover:opacity-50 transition duration-700"
+        <a href="#proyectos" class="hover:opacity-50 transition duration-700"
           >Proyectos</a
         >
       </div>
@@ -137,7 +138,7 @@
               personalmente y a las personas con las que trabajo.
             </p>
             <p>
-              Con experiencia trabajando por mi cuenta y como en equipo,
+              Con experiencia trabajando tanto por mi cuenta y como en equipo,
               trabajando con metodologías agiles, resolviendo las necesidades
               del cliente.
             </p>
@@ -262,42 +263,56 @@
       <!-- @todo CV Download Button -->
 
       <!-- Projects Section -->
-      <section id="projects">
+      <section id="proyectos">
         <!-- Projects Container -->
-        <div class="my-40">
+        <div class="flex flex-col pt-12 my-40">
           <!-- Title -->
           <div class="titulo">
             <h3>Proyectos</h3>
           </div>
           <!-- Projects Content -->
-          <div class="flex flex-col mx-auto space-y-20 md:space-y-24">
+          <div class="flex flex-col mx-auto space-y-20 md:space-y-20">
             <!-- Item 1 -->
-            <div class="flex flex-col md:w-2/3 md:mr-auto group">
-              <!-- Imagen -->
+            <div
+              class="flex flex-col p-3 rounded-xl md:w-2/3 md:mr-auto bg-gradient-to-br from-cyan-500 to-primary"
+            >
+              <!-- Project Title -->
+              <div class="flex mb-3 font-bold px-1 space-x-2">
+                <!-- Icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  class="size-8 items-center"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z"
+                  />
+                </svg>
+                <!-- Title -->
+                <h2 class="text-xl md:text-2xl">E-Commerce IHPE Ltda.</h2>
+              </div>
+              <!-- Image -->
               <img
                 src="img/project-ihpe.png"
                 alt=""
-                class="w-full rounded-xl group-hover:scale-105 transition duration-200 ease-in-out"
+                class="size-full rounded-xl"
               />
               <!-- Content -->
-              <div class="flex flex-col px-1 py-3 w-full bottom-0">
-                <!-- Text Info -->
+              <div class="flex flex-col px-1 pt-3 w-full bottom-0">
+                <!-- Description Text -->
                 <div class="flex flex-col">
-                  <h2 class="text-2xl font-bold md:text-3xl">
-                    E-Commerce IHPE Ltda.
-                  </h2>
                   <p class="text-xl md:text-2xl">
                     Como proyecto de titulo, dentro de mi grupo de trabajo, me
                     desempeñe como
-                    <span
-                      class="underline underline-offset-4 decoration-primary"
-                      >desarrollador Front-end</span
-                    >, para una tienda física de productos variados, esta fue
-                    nuestra solución utilizando
-                    <span
-                      class="underline underline-offset-4 decoration-primary"
-                      >WordPress</span
-                    >
+                    <span class="font-bold">desarrollador Front-end</span>, para
+                    una tienda física de productos variados, esta fue nuestra
+                    solución utilizando
+                    <span class="font-bold">WordPress</span>
                     mas WooCommerce.
                   </p>
                 </div>
@@ -335,8 +350,33 @@
             </div>
 
             <!-- Item 2 -->
-            <div class="flex flex-col md:w-2/3 md:ml-auto group">
+            <div
+              class="flex flex-col p-3 rounded-xl md:w-2/3 md:ml-auto bg-gradient-to-br from-cyan-500 to-primary"
+            >
               <!-- Imagen -->
+              <!-- Project Title -->
+              <div class="flex mb-3 font-bold px-1 space-x-2">
+                <!-- Icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  class="size-8 items-center"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z"
+                  />
+                </svg>
+                <!-- Title -->
+                <h2 class="text-xl font-bold md:text-2xl">
+                  Portafolio Personal
+                </h2>
+              </div>
+              <!-- Image -->
               <img
                 src="img/project-portfolio.png"
                 alt=""
@@ -346,20 +386,11 @@
               <div class="flex flex-col px-1 py-3 w-full bottom-0">
                 <!-- Text Info -->
                 <div class="flex flex-col">
-                  <h2 class="text-2xl font-bold md:text-3xl">
-                    Portafolio Personal
-                  </h2>
                   <p class="text-xl md:text-2xl">
                     En este proyecto personal he trabajado como
-                    <span
-                      class="underline underline-offset-4 decoration-primary"
-                      >desarrollador y diseñador</span
-                    >, para plasmar los contenidos con mi estilo personal,
-                    usando
-                    <span
-                      class="underline underline-offset-4 decoration-primary"
-                      >TailwindCSS</span
-                    >.
+                    <span class="font-bold">desarrollador y diseñador</span>,
+                    para plasmar los contenidos con mi estilo personal, usando
+                    <span class="font-bold">TailwindCSS</span>.
                   </p>
                 </div>
                 <div class="flex pt-6 space-x-4 justify-end md:m-0">
@@ -383,6 +414,7 @@
                       <p>Codigo</p>
                     </div>
                   </a>
+                  <!-- Visitar Button -->
                   <a
                     href="https://vdotportfolio.netlify.app/"
                     target="_blank"
@@ -417,9 +449,6 @@
           </div>
         </div>
       </section>
-
-      <!-- Section Footer -->
-      <footer></footer>
     </div>
   </body>
 </html>
