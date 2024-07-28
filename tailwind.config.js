@@ -4,12 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'text': '#000000',
-        'background': '#fffafa',
-        'primary': '#165cff',
-        'secondary': '#164c7e',
-        'tertiary': '#81B7E9',
-        'accent': '#FD560E',
+        'text': '#002fb1',
+        'background': '#d8e1ff',
+        'primary': '#002fb1'
        },
       screens: {
         sm: "480px",
