@@ -10,11 +10,11 @@
 }
 
 body .titulo {
-  @apply flex text-4xl text-text font-Syne pb-10 md:text-4xl;
+  @apply flex text-2xl text-text font-Syne pb-10 md:text-3xl;
 }
 
 .name {
-  @apply text-2xl py-1 font-semibold md:text-3xl md:pb-1;
+  @apply text-xl py-1 font-semibold md:text-2xl md:pb-1;
 }
 
 .institution {
@@ -30,7 +30,7 @@ body .titulo {
 }
 
 #tech .tech-container {
-  @apply flex flex-row flex-wrap text-2xl justify-start gap-x-7 gap-y-3 md:gap-x-9 md:gap-y-1 md:flex-col;
+  @apply flex flex-row flex-wrap text-xl justify-start gap-x-7 gap-y-3 md:text-2xl md:gap-x-9 md:gap-y-1 md:flex-col;
 }
 
 #proyectos .ir-a-btn {

@@ -818,13 +818,8 @@ video {
   line-height: 2rem;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-8xl{
-  font-size: 6rem;
+.text-7xl{
+  font-size: 4.5rem;
   line-height: 1;
 }
 
@@ -899,32 +894,32 @@ body .titulo{
   display: flex;
   padding-bottom: 2.5rem;
   font-family: Syne;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   --tw-text-opacity: 1;
   color: rgb(0 47 177 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){
   body .titulo{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
 .name{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 600;
 }
 
 @media (min-width: 768px){
   .name{
     padding-bottom: 0.25rem;
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
@@ -989,8 +984,8 @@ body .titulo{
   -moz-column-gap: 1.75rem;
        column-gap: 1.75rem;
   row-gap: 0.75rem;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 @media (min-width: 768px){
@@ -999,6 +994,8 @@ body .titulo{
     -moz-column-gap: 2.25rem;
          column-gap: 2.25rem;
     row-gap: 0.25rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
@@ -1189,11 +1186,6 @@ body .titulo{
   .md\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .md\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .md\:text-\[12rem\]{
