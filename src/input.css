@@ -21,10 +21,6 @@ body .titulo {
   @apply text-xl pb-2 md:text-2xl;
 }
 
-.cta {
-  @apply mx-auto border rounded-lg p-4 border-primary text-2xl font-semibold text-primary md:text-3xl hover:opacity-60 transition duration-300;
-}
-
 .social-btn {
   @apply hover:-translate-y-1 duration-150;
 }
@@ -34,5 +30,5 @@ body .titulo {
 }
 
 #proyectos .ir-a-btn {
-  @apply flex mt-5 text-xl text-center items-center border-2 border-primary rounded-xl py-3 px-5 space-x-2 hover:-translate-y-1 duration-150 md:m-0;
+  @apply flex mt-5 text-xl text-center items-center border border-primary rounded-xl py-3 px-5 space-x-2 hover:-translate-y-1 duration-150 md:m-0;
 }
